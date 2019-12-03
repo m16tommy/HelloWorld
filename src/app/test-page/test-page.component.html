@@ -1,0 +1,21 @@
+<div class="container">
+    <p>test-page works!</p>
+    <form>
+        <p>名稱：
+            <input type="text" name="name" [(ngModel)]="name">
+        </p>
+        <p>內容：
+            <input type="text" name="content" [(ngModel)]="content">
+        </p>
+        <p>
+            <button type="submit" class="btn-primary">新增留言</button>
+        </p>
+    </form>
+
+    <p>留言人：{{ name }}</p>
+
+    <p>訊息內容：{{ content }}</p>
+
+    <p>齁齁齁:{{testA}}</p>
+    <p>時間：</p>
+</div>
